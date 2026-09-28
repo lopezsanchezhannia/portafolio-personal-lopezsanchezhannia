@@ -48,25 +48,33 @@
      ============================================================================ -->
 
 
-<!-- ===================== NAV ===================== -->
-<header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200">
-  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex items-center justify-between h-16">
-      <a href="#inicio" class="font-extrabold text-brand-700">
-        <!-- EDITA AQUI: puedes cambiar "AW" por tus iniciales -->
-        LSHM
-      </a>
-      <nav class="hidden sm:flex items-center gap-6 text-sm font-medium text-slate-600">
-        <a href="#sobre-mi" class="hover:text-brand-700">Sobre mí</a>
-        <a href="#stack" class="hover:text-brand-700">Stack</a>
-        <a href="#proyecto" class="hover:text-brand-700">Proyecto</a>
-        <a href="#entregas" class="hover:text-brand-700">Entregas</a>
-        <a href="#contacto" class="hover:text-brand-700">Contacto</a>
-      </nav>
-    </div>
-  </div>
-</header>
 
+  <!-- ===================== NAV ===================== -->
+  <header class="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-slate-200">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <!-- LOGO -->
+        <div class="flex-shrink-0 flex items-center">
+          <a href="#inicio">
+            <img 
+              class="h-12 w-auto object-contain" 
+              src="Hannia_Lopez_Logo.png" 
+              alt="Logo de Hannia Lopez Dev"
+            />
+          </a>
+        </div>
+
+        <!-- NAVEGACIÓN -->
+        <nav class="hidden sm:flex items-center gap-6 text-sm font-medium text-slate-600">
+          <a href="#sobre-mi" class="hover:text-brand-700 transition-colors">Sobre mí</a>
+          <a href="#stack" class="hover:text-brand-700 transition-colors">Stack</a>
+          <a href="#proyecto" class="hover:text-brand-700 transition-colors">Proyecto</a>
+          <a href="#entregas" class="hover:text-brand-700 transition-colors">Entregas</a>
+          <a href="#contacto" class="hover:text-brand-700 transition-colors">Contacto</a>
+        </nav>
+      </div>
+    </div>
+  </header>
 <!-- ============================================================
      EDITA AQUI: SECCIÓN DE DATOS DEL ALUMNO (id="datos-alumno")
      Reemplaza nombre, matrícula, grupo y la frase de presentación.
@@ -90,7 +98,7 @@
           <!-- EDITA AQUI: pon la URL real de tu perfil de GitHub -->
           <a href="https://github.com/lopezsanchezhannia" class="rounded-lg bg-white text-ink font-semibold px-4 py-2 text-sm hover:bg-slate-100 transition">GitHub</a>
           <!-- EDITA AQUI: pon la URL real de tu LinkedIn (opcional, puedes borrar el botón si no tienes) -->
-          <a href="[URL-LINKEDIN]" class="rounded-lg bg-white/10 text-white font-semibold px-4 py-2 text-sm border border-white/20 hover:bg-white/20 transition">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/hannia-montserrat-l%C3%B3pez-s%C3%A1nchez-4408a1274/" class="rounded-lg bg-white/10 text-white font-semibold px-4 py-2 text-sm border border-white/20 hover:bg-white/20 transition">LinkedIn</a>
           <a href="#entregas" class="rounded-lg bg-brand-600 text-white font-semibold px-4 py-2 text-sm hover:bg-brand-500 transition">Ver mis entregas →</a>
         </div>
       </div>
@@ -169,12 +177,17 @@
       <li class="rounded-xl bg-white/5 border border-white/10 p-5 hover:bg-white/10 transition">
         <p class="text-xs font-bold text-orange-300 uppercase">Unidad 1</p>
         <p class="font-semibold mt-1">Portafolio estático (HTML + Tailwind)</p>
-        <a href="https://ine-personal-lshm.onrender.com" class="text-sm text-brand-300 hover:underline mt-2 inline-block break-all">https://ine-personal-lshm.onrender.com</a>
+        <a href="https://ine-personal-lshm.onrender.com" class="text-sm text-brand-300 hover:underline mt-2 inline-block break-all">Practia 1</a>
+        <a href="https://portafolio-lshm.onrender.com" class="text-sm text-brand-300 hover:underline mt-2 inline-block break-all">Practica 2</a>
+
       </li>
       <li class="rounded-xl bg-white/5 border border-white/10 p-5 hover:bg-white/10 transition">
         <p class="text-xs font-bold text-emerald-300 uppercase">Unidad 2</p>
         <p class="font-semibold mt-1">App Django + MySQL en Render</p>
-        <a href="[URL-UNIDAD-2]" class="text-sm text-brand-300 hover:underline mt-2 inline-block break-all">[URL-UNIDAD-2]</a>
+
+        <a href="https://github.com/lopezsanchezhannia/MiProyectoDjango.git" class="text-sm text-brand-300 hover:underline mt-2 inline-block break-all">Practica 1</a>
+        <a href="image-practica2.png" class="text-sm text-brand-300 hover:underline mt-2 inline-block break-all">Practica 2</a>
+        <a href="https://portafolio-personal-lopezsanchezhannia.onrender.com" class="text-sm text-brand-300 hover:underline mt-2 inline-block break-all">Practica 3</a>
       </li>
       <li class="rounded-xl bg-white/5 border border-white/10 p-5 hover:bg-white/10 transition">
         <p class="text-xs font-bold text-blue-300 uppercase">Unidad 3</p>
@@ -201,13 +214,23 @@
   </div>
 </section>
 
-<footer class="bg-slate-100 border-t border-slate-200 text-slate-500 text-sm">
-  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col sm:flex-row justify-between gap-2">
-    <!-- EDITA AQUI: pon tu nombre en el copyright -->
-    <p>© 2026 Lopez Sanchez Hannia Montserrat. Todos los derechos reservados.</p>
-    <p>Aplicaciones Web · Docente: Bernardo Prado Díaz</p>
-  </div>
-</footer>
+<!-- ===================== FOOTER ===================== -->
+  <footer class="bg-slate-100 border-t border-slate-200 text-slate-500 text-sm">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
+      <div class="flex flex-col sm:flex-row items-center gap-3">
+        <img 
+          src="Hannia_Lopez_Logo.png" 
+          alt="Monograma de Hannia Lopez" 
+          class="h-8 w-auto object-contain"
+        />
+        <p>©️ 2026 Lopez Sanchez, Hannia Montserrat. Todos los derechos reservados.</p>
+      </div>
+
+      <p class="text-xs text-slate-400 sm:text-sm sm:text-slate-500">
+        Aplicaciones Web · Docente: Bernardo Prado Díaz
+      </p>
+    </div>
+  </footer>
 
 </body>
 <script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'},{'ap':'cpsh-oh'},{'server':'p3plzcpnl504927'},{'dcenter':'p3'},{'cp_id':'10837813'},{'cp_cl':'8'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='https://img1.wsimg.com/traffic-assets/js/tccl.min.js'></script></html>
